@@ -35,8 +35,8 @@ class Server:
     def __init__(self):
         self.SIMULATOR_HOST = os.environ.get("SIMULATOR_HOST", "127.0.0.1")
         self.SIMULATOR_PORT = int(os.environ.get("SIMULATOR_PORT", 8977))
-        self.BRIDGE_HOST = os.environ.get("BRIDGE_HOST", "112.137.129.158")
-        self.BRIDGE_PORT = int(os.environ.get("BRIDGE_PORT", 9090))
+        self.BRIDGE_HOST = os.environ.get("BRIDGE_HOST", "97.119.210.105")
+        self.BRIDGE_PORT = int(os.environ.get("BRIDGE_PORT", 40156))
         self.sim = 0
         self.ego = 0
         self.destination_apollo = []
@@ -375,7 +375,7 @@ class Server:
 
 
             self.ego.on_collision(self.AVS_on_collision)
-            self.ego.connect_bridge(os.environ.get("BRIDGE_HOST", "112.137.129.158") ,port = 9090)
+            self.ego.connect_bridge(os.environ.get("BRIDGE_HOST", "97.119.210.105") ,port = 40156)
             # bounding_box = ego.bounding_box()
             # print(bounding_box.size)
             self.Add_npc_vehicles_to_Lgsvl(npcList)

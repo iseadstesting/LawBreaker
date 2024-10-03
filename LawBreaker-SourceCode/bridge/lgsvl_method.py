@@ -75,8 +75,8 @@ class CyberBridgeInstance:
 
 	def connect(self):
 		if self.connect_status == 'disconnected':
-			HOST = '112.137.129.158'  # The server's hostname or IP address
-			PORT = 9090        # The port used by the server
+			HOST = '97.119.210.105'  # The server's hostname or IP address
+			PORT = 40156     # The port used by the server
 
 			# with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
 				
