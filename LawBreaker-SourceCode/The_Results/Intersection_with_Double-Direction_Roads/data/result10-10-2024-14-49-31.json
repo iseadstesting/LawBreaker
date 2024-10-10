@@ -1,0 +1,347 @@
+{
+  "ScenarioName": "scenario0",
+  "MapVariable": "",
+  "map": "san_francisco",
+  "time": {
+    "hour": 19,
+    "minute": 14
+  },
+  "weather": {
+    "rain": 0.3790201486564436,
+    "fog": 0.4781311049636372,
+    "wetness": 0.6096638691095858
+  },
+  "ego": {
+    "ID": "ego_vehicle",
+    "name": "gt_sensors",
+    "groundTruthPerception": true,
+    "color": null,
+    "start": {
+      "lane_position": {
+        "lane": "lane_540",
+        "offset": 50.819786112261745,
+        "roadID": null
+      },
+      "heading": {
+        "ref_lane_point": {
+          "lane": "lane_540",
+          "offset": 50.819786112261745,
+          "roadID": null
+        },
+        "ref_angle": 0.0
+      },
+      "speed": 0.0
+    },
+    "destination": {
+      "lane_position": {
+        "lane": "lane_572",
+        "offset": 50.0,
+        "roadID": null
+      },
+      "heading": {
+        "ref_lane_point": {
+          "lane": "lane_572",
+          "offset": 50.0,
+          "roadID": null
+        },
+        "ref_angle": 0.0
+      },
+      "speed": 0.0
+    }
+  },
+  "npcList": [
+    {
+      "ID": "npc1",
+      "name": "Hatchback",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_574",
+          "offset": 99.08831200535936,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_574",
+            "offset": 99.08831200535936,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 7.704478309341167
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_569",
+            "offset": 30.083445599303623,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_569",
+              "offset": 30.083445599303623,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_569",
+          "offset": 31.456482480872523,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_569",
+            "offset": 30.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc2",
+      "name": "Sedan",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_564",
+          "offset": 10.195717060664466,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_564",
+            "offset": 10.195717060664466,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 5.323758154312136
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_568",
+            "offset": 49.45334844569715,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_568",
+              "offset": 49.45334844569715,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_568",
+          "offset": 50.01786637496091,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_568",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc3",
+      "name": "Jeep",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_565",
+          "offset": 10.978227282420317,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_565",
+            "offset": 10.978227282420317,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 5.77167854891301
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_569",
+            "offset": 50.7590950265715,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_569",
+              "offset": 50.7590950265715,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_569",
+          "offset": 50.7590950265715,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_569",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc4",
+      "name": "SUV",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_570",
+          "offset": 9.057879991124082,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_570",
+            "offset": 9.057879991124082,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 6.052943030296863
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_566",
+            "offset": 49.27144837890793,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_566",
+              "offset": 49.27144837890793,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_566",
+          "offset": 50.07145850322575,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_566",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc5",
+      "name": "SUV",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_571",
+          "offset": 76.75402624892867,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_571",
+            "offset": 76.75402624892867,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 6.642556489494166
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_567",
+            "offset": 28.51602679814192,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_567",
+              "offset": 28.51602679814192,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_567",
+          "offset": 29.5622076644623,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_567",
+            "offset": 30.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    }
+  ],
+  "pedestrianList": [],
+  "obstacleList": [],
+  "AgentNames": [
+    "npc1",
+    "npc2",
+    "npc3",
+    "npc4",
+    "npc5"
+  ],
+  "groundTruthPerception": true,
+  "testFailures": [
+    "Couldnt connect with the socket-server: [Errno 111] Connection refused"
+  ],
+  "testResult": "Fail",
+  "minEgoObsDist": 200,
+  "destinationReached": false,
+  "trace": [],
+  "completed": false
+}

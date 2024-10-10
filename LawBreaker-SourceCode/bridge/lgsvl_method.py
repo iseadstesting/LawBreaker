@@ -801,6 +801,7 @@ class CyberBridgeInstance:
 	def calculate_distance_to_stopline_of_sign_ahead(self, ahead_area_polygon):
 		result = []
 		traffic_sign_list = self.map_info.get_traffic_sign()
+		print(traffic_sign_list);
 	  
 		assert self.ego_position_area is not None
 		ego = self.ego_position_area
