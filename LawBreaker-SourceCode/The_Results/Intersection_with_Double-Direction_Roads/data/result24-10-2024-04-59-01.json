@@ -1,0 +1,3094 @@
+{
+  "ScenarioName": "scenario0",
+  "MapVariable": "",
+  "map": "san_francisco",
+  "time": {
+    "hour": 4,
+    "minute": 58
+  },
+  "weather": {
+    "rain": 0.7587692727796568,
+    "fog": 0.6934858652497924,
+    "wetness": 0.3356542275251183
+  },
+  "ego": {
+    "ID": "ego_vehicle",
+    "name": "gt_sensors",
+    "groundTruthPerception": true,
+    "color": null,
+    "start": {
+      "lane_position": {
+        "lane": "lane_540",
+        "offset": 49.392408501923725,
+        "roadID": null
+      },
+      "heading": {
+        "ref_lane_point": {
+          "lane": "lane_540",
+          "offset": 49.392408501923725,
+          "roadID": null
+        },
+        "ref_angle": 0.0
+      },
+      "speed": 0.0
+    },
+    "destination": {
+      "lane_position": {
+        "lane": "lane_572",
+        "offset": 50.0,
+        "roadID": null
+      },
+      "heading": {
+        "ref_lane_point": {
+          "lane": "lane_572",
+          "offset": 50.0,
+          "roadID": null
+        },
+        "ref_angle": 0.0
+      },
+      "speed": 0.0
+    }
+  },
+  "npcList": [
+    {
+      "ID": "npc1",
+      "name": "Sedan",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_574",
+          "offset": 101.87993142741239,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_574",
+            "offset": 101.87993142741239,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 6.381513074398254
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_569",
+            "offset": 30.06655156925108,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_569",
+              "offset": 30.06655156925108,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_569",
+          "offset": 30.548454380611624,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_569",
+            "offset": 30.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc2",
+      "name": "SUV",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_564",
+          "offset": 10.939616776729855,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_564",
+            "offset": 10.939616776729855,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 5.773913267376735
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_568",
+            "offset": 49.20549244432633,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_568",
+              "offset": 49.20549244432633,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 1.595378968653148
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_568",
+          "offset": 49.53575267996964,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_568",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc3",
+      "name": "Sedan",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_565",
+          "offset": 10.575696082341722,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_565",
+            "offset": 10.575696082341722,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 6.65839237054597
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_569",
+            "offset": 50.753693295651495,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_569",
+              "offset": 50.753693295651495,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_569",
+          "offset": 50.753693295651495,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_569",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc4",
+      "name": "Jeep",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_570",
+          "offset": 11.424340080767408,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_570",
+            "offset": 11.424340080767408,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 6.919002328806412
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_566",
+            "offset": 51.556229397674116,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_566",
+              "offset": 51.556229397674116,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_566",
+          "offset": 51.556229397674116,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_566",
+            "offset": 50.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    },
+    {
+      "ID": "npc5",
+      "name": "SchoolBus",
+      "color": null,
+      "start": {
+        "lane_position": {
+          "lane": "lane_571",
+          "offset": 76.33554392478216,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_571",
+            "offset": 76.33554392478216,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 5.120798534136014
+      },
+      "motion": [
+        {
+          "lane_position": {
+            "lane": "lane_567",
+            "offset": 28.45228746161396,
+            "roadID": null
+          },
+          "heading": {
+            "ref_lane_point": {
+              "lane": "lane_567",
+              "offset": 28.45228746161396,
+              "roadID": null
+            },
+            "ref_angle": 0.0
+          },
+          "speed": 0.5
+        }
+      ],
+      "destination": {
+        "lane_position": {
+          "lane": "lane_567",
+          "offset": 30.337238280621342,
+          "roadID": null
+        },
+        "heading": {
+          "ref_lane_point": {
+            "lane": "lane_567",
+            "offset": 30.0,
+            "roadID": null
+          },
+          "ref_angle": 0.0
+        },
+        "speed": 0.0
+      }
+    }
+  ],
+  "pedestrianList": [],
+  "obstacleList": [],
+  "AgentNames": [
+    "npc1",
+    "npc2",
+    "npc3",
+    "npc4",
+    "npc5"
+  ],
+  "groundTruthPerception": true,
+  "testFailures": [],
+  "testResult": "PASS",
+  "minEgoObsDist": 200,
+  "destinationReached": true,
+  "trace": [
+    {
+      "timestamp": 153112,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593200.4253540039,
+            "y": 4134805.2168884277,
+            "z": 10.556838989257812
+          },
+          "orientation": {
+            "qx": 0.0003911893581971526,
+            "qy": 0.00035980952088721097,
+            "qz": -0.391679972410202,
+            "qw": -0.9201014041900635
+          },
+          "linearVelocity": {
+            "x": -10.006770133972168,
+            "y": -10.562816619873047,
+            "z": -0.012767903506755829
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.37570966068626,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282747434827911,
+            "y": 6.282216933142877,
+            "z": 0.8049138016303914
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 14.578579902648926,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 44,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 104.35853879902518,
+        "stopSignAhead": 200,
+        "stoplineAhead": 105.45240969492022,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {}
+    },
+    {
+      "timestamp": 153125,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593191.5688781738,
+            "y": 4134813.294555664,
+            "z": 10.556285858154297
+          },
+          "orientation": {
+            "qx": -0.00023592161596752703,
+            "qy": 0.0025360386352986097,
+            "qz": -0.39168691635131836,
+            "qw": -0.9200951457023621
+          },
+          "linearVelocity": {
+            "x": -8.9011812210083,
+            "y": -9.307901382446289,
+            "z": 0.00045934319496154785
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3757236617739146,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.0024208087307917014,
+            "y": 6.278703158427845,
+            "z": 0.8049258524342306
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 13.196452140808105,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 13.8997163772583,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 45,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 92.37625124408989,
+        "stopSignAhead": 200,
+        "stoplineAhead": 93.47035821118462,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153140,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593182.0006103516,
+            "y": 4134822.5773620605,
+            "z": 10.556292533874512
+          },
+          "orientation": {
+            "qx": 0.0006214354070834816,
+            "qy": 7.838223609724082e-06,
+            "qz": -0.4003688395023346,
+            "qw": -0.9163540005683899
+          },
+          "linearVelocity": {
+            "x": -7.839057445526123,
+            "y": -8.375236511230469,
+            "z": 0.00028055161237716675
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3946351182692034,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282052882420999,
+            "y": 6.28267339895018,
+            "z": 0.823838956559193
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 11.5830659866333,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 11.765057563781738,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 46,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 79.02643080121469,
+        "stopSignAhead": 200,
+        "stoplineAhead": 80.12047225394794,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153151,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593175.8449401855,
+            "y": 4134829.0692749023,
+            "z": 10.55491828918457
+          },
+          "orientation": {
+            "qx": 0.0012283315882086754,
+            "qy": -0.003033136250451207,
+            "qz": -0.37421339750289917,
+            "qw": -0.9273369312286377
+          },
+          "linearVelocity": {
+            "x": -7.86489725112915,
+            "y": -7.837812900543213,
+            "z": 0.00032117217779159546
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3378972919860823,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.278637112033323,
+            "y": 0.004706227450269329,
+            "z": 0.7670903896995895
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 11.5830659866333,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 11.765057563781738,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 46,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 70.09301431312706,
+        "stopSignAhead": 200,
+        "stoplineAhead": 71.1691306847472,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153167,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593166.9667358398,
+            "y": 4134837.3070373535,
+            "z": 10.554767608642578
+          },
+          "orientation": {
+            "qx": -0.0033562348689883947,
+            "qy": 0.010657296516001225,
+            "qz": -0.3007340431213379,
+            "qw": -0.953642725944519
+          },
+          "linearVelocity": {
+            "x": -8.794054985046387,
+            "y": -6.283074855804443,
+            "z": 0.0003307238221168518
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.1817598394230506,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.012811668956800304,
+            "y": 6.264874960890836,
+            "z": 0.6108464581804895
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 11.5830659866333,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 11.765057563781738,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 46,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 57.88529134359452,
+        "stopSignAhead": 200,
+        "stoplineAhead": 58.9661599736758,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153172,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593164.5107116699,
+            "y": 4134840.5666503906,
+            "z": 10.554887771606445
+          },
+          "orientation": {
+            "qx": 0.0029474415350705385,
+            "qy": -0.007422544062137604,
+            "qz": -0.37661799788475037,
+            "qw": -0.9263343811035156
+          },
+          "linearVelocity": {
+            "x": -7.523161888122559,
+            "y": -7.588727951049805,
+            "z": 0.00010324269533157349
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3431064215819983,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.272133672701727,
+            "y": 0.011532353998360834,
+            "z": 0.7722476011105783
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 11.5830659866333,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 11.765057563781738,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 46,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 53.95341455741467,
+        "stopSignAhead": 200,
+        "stoplineAhead": 55.0339475544412,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153180,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593159.8489685059,
+            "y": 4134844.7178344727,
+            "z": 10.556829452514648
+          },
+          "orientation": {
+            "qx": -0.001706655602902174,
+            "qy": 0.005828338209539652,
+            "qz": -0.37848058342933655,
+            "qw": -0.925589382648468
+          },
+          "linearVelocity": {
+            "x": -7.280817031860352,
+            "y": -6.794293403625488,
+            "z": -0.0001743808388710022
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3471121136150526,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.007571222839269642,
+            "y": 6.273687360869644,
+            "z": 0.7762874832948796
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 11.5830659866333,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 11.765057563781738,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 46,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 47.728554000189455,
+        "stopSignAhead": 200,
+        "stoplineAhead": 48.800614889221016,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153193,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593153.861328125,
+            "y": 4134850.163543701,
+            "z": 10.551265716552734
+          },
+          "orientation": {
+            "qx": 0.001110803335905075,
+            "qy": -0.005252927541732788,
+            "qz": -0.4911454916000366,
+            "qw": -0.8710611462593079
+          },
+          "linearVelocity": {
+            "x": -4.735377788543701,
+            "y": -7.806105136871338,
+            "z": -0.0013183653354644775
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.5976043117906773,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.276090064786501,
+            "y": 0.008060398714349326,
+            "z": 1.0267961313959972
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.535221099853516,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 50,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 244.13831110630557,
+        "junctionAhead": 39.51071722559132,
+        "stopSignAhead": 200,
+        "stoplineAhead": 40.600208950477565,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153202,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593149.5365600586,
+            "y": 4134853.4340515137,
+            "z": 10.556408882141113
+          },
+          "orientation": {
+            "qx": -0.0028201481327414513,
+            "qy": 0.008405592292547226,
+            "qz": -0.35889431834220886,
+            "qw": -0.9333361387252808
+          },
+          "linearVelocity": {
+            "x": -6.585414409637451,
+            "y": -5.846667289733887,
+            "z": 0.0007364004850387573
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.304985691872207,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.011297970857114259,
+            "y": 6.269517915899314,
+            "z": 0.7341190575002443
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.535221099853516,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 50,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 200,
+        "junctionAhead": 34.242397312206506,
+        "stopSignAhead": 200,
+        "stoplineAhead": 35.29176584931174,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153223,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593139.6560058594,
+            "y": 4134862.0059509277,
+            "z": 10.555266380310059
+          },
+          "orientation": {
+            "qx": -0.0032419683411717415,
+            "qy": 0.010807696729898453,
+            "qz": -0.281139075756073,
+            "qw": -0.9596007466316223
+          },
+          "linearVelocity": {
+            "x": -7.171262264251709,
+            "y": -4.328680515289307,
+            "z": 0.00036566704511642456
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.1407968950231844,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.01229923307455194,
+            "y": 6.2642634991092905,
+            "z": 0.5698825801375662
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.535221099853516,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 50,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 226.865818211673,
+        "junctionAhead": 21.110414246307005,
+        "stopSignAhead": 200,
+        "stoplineAhead": 22.15384128688753,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153227,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593138.4823608398,
+            "y": 4134863.851928711,
+            "z": 10.554900169372559
+          },
+          "orientation": {
+            "qx": -0.00019808951765298843,
+            "qy": -0.000304440560285002,
+            "qz": -0.29271653294563293,
+            "qw": -0.9561992883682251
+          },
+          "linearVelocity": {
+            "x": -6.917654037475586,
+            "y": -4.979602336883545,
+            "z": 0.00038705021142959595
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.1649292352581933,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.0002005965445736179,
+            "y": 0.0006981797935350781,
+            "z": 0.5941331916779191
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.535221099853516,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 50,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 204.35315592564243,
+        "junctionAhead": 18.978685871339824,
+        "stopSignAhead": 200,
+        "stoplineAhead": 20.03197676332851,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 71.1691306847472
+      }
+    },
+    {
+      "timestamp": 153243,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593131.4707946777,
+            "y": 4134871.4793395996,
+            "z": 10.556218147277832
+          },
+          "orientation": {
+            "qx": -7.718022970948368e-05,
+            "qy": 0.0009548699017614126,
+            "qz": -0.3126811385154724,
+            "qw": -0.9498577117919922
+          },
+          "linearVelocity": {
+            "x": -6.502034664154053,
+            "y": -5.295348644256592,
+            "z": 0.001000829041004181
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.206824928234865,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.0007437600943241765,
+            "y": 6.281419582718684,
+            "z": 0.6360284437258557
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.385533332824707,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 194.01645347536103,
+        "junctionAhead": 8.64183150714348,
+        "stopSignAhead": 200,
+        "stoplineAhead": 9.703303902275024,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 20.03197676332851
+      }
+    },
+    {
+      "timestamp": 153256,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593126.2814331055,
+            "y": 4134875.9388427734,
+            "z": 10.555695533752441
+          },
+          "orientation": {
+            "qx": -0.00231246673502028,
+            "qy": 0.004805100150406361,
+            "qz": -0.44055870175361633,
+            "qw": -0.8977081179618835
+          },
+          "linearVelocity": {
+            "x": -5.59861946105957,
+            "y": -6.412935256958008,
+            "z": -0.0006307885050773621
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.483251361625957,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.008385794344847042,
+            "y": 6.276595532757483,
+            "z": 0.9124280774280535
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_540",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 187.2025766298333,
+        "junctionAhead": 1.8268003274279692,
+        "stopSignAhead": 200,
+        "stoplineAhead": 2.9017751229074227,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": true,
+        "trafficLightList": [
+          {
+            "color": 3,
+            "id": "signal_182",
+            "blink": false
+          }
+        ],
+        "trafficLightStopLine": 9.703303902275024
+      }
+    },
+    {
+      "timestamp": 153270,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593119.3983764648,
+            "y": 4134882.0014648438,
+            "z": 10.556377410888672
+          },
+          "orientation": {
+            "qx": 0.00022723583970218897,
+            "qy": 9.855406096903607e-05,
+            "qz": -0.4710136651992798,
+            "qw": -0.8821260333061218
+          },
+          "linearVelocity": {
+            "x": -4.979323863983154,
+            "y": -6.524960994720459,
+            "z": -0.00011423975229263306
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.551675081479104,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.2828773970881,
+            "y": 6.282797502256017,
+            "z": 0.9808790400800049
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_1483",
+          "turn": 5,
+          "number": 2
+        },
+        "crosswalkAhead": 178.02515806730142,
+        "junctionAhead": 1.6218978905060708,
+        "stopSignAhead": 200,
+        "stoplineAhead": 12.749239095401116,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153279,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593115.3637695312,
+            "y": 4134886.11907959,
+            "z": 10.555078506469727
+          },
+          "orientation": {
+            "qx": -0.001604329445399344,
+            "qy": 0.0047695026732981205,
+            "qz": -0.28886544704437256,
+            "qw": -0.9573565721511841
+          },
+          "linearVelocity": {
+            "x": -7.088000774383545,
+            "y": -4.88637638092041,
+            "z": 0.0009723156690597534
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.156888514127168,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.005827351681480797,
+            "y": 6.274979526620541,
+            "z": 0.5860668096936905
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_1483",
+          "turn": 5,
+          "number": 4
+        },
+        "crosswalkAhead": 172.26520277172511,
+        "junctionAhead": 3.8792726470284,
+        "stopSignAhead": 200,
+        "stoplineAhead": 8.419938880194849,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153287,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593112.6713867188,
+            "y": 4134889.433532715,
+            "z": 10.55606746673584
+          },
+          "orientation": {
+            "qx": 0.0033537286799401045,
+            "qy": -0.007123859133571386,
+            "qz": -0.40856724977493286,
+            "qw": -0.9126943945884705
+          },
+          "linearVelocity": {
+            "x": -5.530438423156738,
+            "y": -6.419655799865723,
+            "z": 0.00015734881162643433
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.4125936761895517,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.271242046375676,
+            "y": 0.010264274250683103,
+            "z": 0.8417338676282782
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_1488",
+          "turn": 4,
+          "number": 5
+        },
+        "crosswalkAhead": 168.08462029051753,
+        "junctionAhead": 6.872226036330538,
+        "stopSignAhead": 200,
+        "stoplineAhead": 8.06413471364258,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153302,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593105.6687316895,
+            "y": 4134896.8008117676,
+            "z": 10.554719924926758
+          },
+          "orientation": {
+            "qx": 0.0032971904147416353,
+            "qy": -0.008347932249307632,
+            "qz": -0.3998565673828125,
+            "qw": -0.9165338277816772
+          },
+          "linearVelocity": {
+            "x": -5.701663017272949,
+            "y": -6.836751937866211,
+            "z": -0.00014043599367141724
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.393546404374658,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.27046493597561,
+            "y": 0.01266688141989214,
+            "z": 0.8226752217508704
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_1484",
+          "turn": 5,
+          "number": 3
+        },
+        "crosswalkAhead": 157.9391148101717,
+        "junctionAhead": 1.5465768311274795,
+        "stopSignAhead": 200,
+        "stoplineAhead": 6.260923915064915,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153319,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593097.0360717773,
+            "y": 4134904.419494629,
+            "z": 10.555865287780762
+          },
+          "orientation": {
+            "qx": -0.0004442600766196847,
+            "qy": 0.0018553631380200386,
+            "qz": -0.31718945503234863,
+            "qw": -0.9483603835105896
+          },
+          "linearVelocity": {
+            "x": -7.155544757843018,
+            "y": -5.6857452392578125,
+            "z": 0.001287601888179779
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.2163255850486614,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.0020196414865303325,
+            "y": 6.279947919911706,
+            "z": 0.6455268074171272
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 146.39435956738888,
+        "junctionAhead": 146.02836061167295,
+        "stopSignAhead": 200,
+        "stoplineAhead": 145.5484085718718,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153330,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593091.792388916,
+            "y": 4134909.07522583,
+            "z": 10.557183265686035
+          },
+          "orientation": {
+            "qx": -0.0008223701734095812,
+            "qy": 0.0029026702977716923,
+            "qz": -0.4517632722854614,
+            "qw": -0.8921329379081726
+          },
+          "linearVelocity": {
+            "x": -5.376091480255127,
+            "y": -6.487104892730713,
+            "z": -0.00019409507513046265
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.5082786942263837,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.004089976660136552,
+            "y": 6.27874896479824,
+            "z": 0.9374769714989739
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 8.556076049804688,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 0.0,
+          "day": 20,
+          "hours": 4,
+          "minutes": 50,
+          "seconds": 54,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 139.38143700594583,
+        "junctionAhead": 139.01490538852218,
+        "stopSignAhead": 200,
+        "stoplineAhead": 138.53547838605388,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153371,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593078.1538391113,
+            "y": 4134921.029815674,
+            "z": 10.557235717773438
+          },
+          "orientation": {
+            "qx": -0.0015479037538170815,
+            "qy": 0.004580675158649683,
+            "qz": -0.40026941895484924,
+            "qw": -0.9163849353790283
+          },
+          "linearVelocity": {
+            "x": -3.452397108078003,
+            "y": -3.0357232093811035,
+            "z": 0.00019303709268569946
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3944237965529975,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.006504003692876792,
+            "y": 6.276028812081904,
+            "z": 0.8236083933896055
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 121.37623003846959,
+        "junctionAhead": 121.01112733853681,
+        "stopSignAhead": 200,
+        "stoplineAhead": 120.5303088595684,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153395,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593073.3871154785,
+            "y": 4134925.6024475098,
+            "z": 10.55724811553955
+          },
+          "orientation": {
+            "qx": 3.2309635571436957e-05,
+            "qy": 0.0007504996610805392,
+            "qz": -0.4125100076198578,
+            "qw": -0.9109528660774231
+          },
+          "linearVelocity": {
+            "x": -2.2395944595336914,
+            "y": -2.4257798194885254,
+            "z": 5.776435136795044e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.4212113194810874,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 0.0005603119891254074,
+            "y": 6.281791360003979,
+            "z": 0.8504152400824694
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 114.7568939439161,
+        "junctionAhead": 114.39237311209656,
+        "stopSignAhead": 200,
+        "stoplineAhead": 113.91100378841453,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153409,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593071.258605957,
+            "y": 4134927.552001953,
+            "z": 10.557639122009277
+          },
+          "orientation": {
+            "qx": 0.00043146731331944466,
+            "qy": 0.00014484873099718243,
+            "qz": -0.39815306663513184,
+            "qw": -0.9173189401626587
+          },
+          "linearVelocity": {
+            "x": -1.713051676750183,
+            "y": -1.828412652015686,
+            "z": 5.951523780822754e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.389801445531151,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282508815596088,
+            "y": 6.2825759272550386,
+            "z": 0.8190053857971691
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 111.9009298113614,
+        "junctionAhead": 111.53653512851007,
+        "stopSignAhead": 200,
+        "stoplineAhead": 111.05504744373746,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153416,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593070.427154541,
+            "y": 4134928.3292541504,
+            "z": 10.557724952697754
+          },
+          "orientation": {
+            "qx": 0.0004334441910032183,
+            "qy": 0.00019020277250092477,
+            "qz": -0.398089736700058,
+            "qw": -0.9173465371131897
+          },
+          "linearVelocity": {
+            "x": -1.407008409500122,
+            "y": -1.503096342086792,
+            "z": 4.9114227294921875e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3896630831025707,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282541306161136,
+            "y": 6.28249123873303,
+            "z": 0.8188673008957181
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 110.76484134317444,
+        "junctionAhead": 110.40055329131141,
+        "stopSignAhead": 200,
+        "stoplineAhead": 109.91896596783504,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153429,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593069.217956543,
+            "y": 4134929.462158203,
+            "z": 10.557503700256348
+          },
+          "orientation": {
+            "qx": 0.0003440412401687354,
+            "qy": 0.00015787506708875299,
+            "qz": -0.3970407247543335,
+            "qw": -0.917801022529602
+          },
+          "linearVelocity": {
+            "x": -0.8927332758903503,
+            "y": -0.945276141166687,
+            "z": 3.428757190704346e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.387376709831721,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282679257904533,
+            "y": 6.282622266257647,
+            "z": 0.8165807108014889
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 109.11253331787519,
+        "junctionAhead": 108.74838906190732,
+        "stopSignAhead": 200,
+        "stoplineAhead": 108.2666678248963,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153441,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593068.6659240723,
+            "y": 4134929.9817199707,
+            "z": 10.557454109191895
+          },
+          "orientation": {
+            "qx": 0.0003247422573622316,
+            "qy": 0.00014226067287381738,
+            "qz": -0.39632514119148254,
+            "qw": -0.9181103110313416
+          },
+          "linearVelocity": {
+            "x": -0.5778058171272278,
+            "y": -0.6094614267349243,
+            "z": 4.60892915725708e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3858175232270957,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": 6.282701628457517,
+            "y": 6.2826664747314,
+            "z": 0.815021496574353
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 108.35694922794518,
+        "junctionAhead": 107.99286635959025,
+        "stopSignAhead": 200,
+        "stoplineAhead": 107.51108811014518,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    },
+    {
+      "timestamp": 153466,
+      "ego": {
+        "pose": {
+          "position": {
+            "x": 593068.5603942871,
+            "y": 4134930.0812683105,
+            "z": 10.556599617004395
+          },
+          "orientation": {
+            "qx": 3.8783560739830136e-05,
+            "qy": 1.758785219863057e-05,
+            "qz": -0.39624717831611633,
+            "qw": -0.9181439876556396
+          },
+          "linearVelocity": {
+            "x": -0.00010785098857013509,
+            "y": -0.00013167264114599675,
+            "z": 6.183236837387085e-05
+          },
+          "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "heading": 2.3856477292358953,
+          "linearAccelerationVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angularVelocityVrf": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "eulerAngles": {
+            "x": -5.727950446171278e-05,
+            "y": -6.303210873462393e-05,
+            "z": 0.8148515203190954
+          }
+        },
+        "size": {
+          "length": 4.7,
+          "width": 2.06
+        },
+        "Chasis": {
+          "lowBeamOn": false,
+          "highBeamOn": false,
+          "turnSignal": 0,
+          "hornOn": false,
+          "speed": 6.718942642211914,
+          "engineOn": true,
+          "gear": 1,
+          "brake": 8.61705493927002,
+          "day": 20,
+          "hours": 4,
+          "minutes": 51,
+          "seconds": 1,
+          "error_code": 0
+        },
+        "currentLane": {
+          "currentLaneId": "lane_572",
+          "turn": 0,
+          "number": 4
+        },
+        "crosswalkAhead": 108.2122405772477,
+        "junctionAhead": 107.84817008016621,
+        "stopSignAhead": 200,
+        "stoplineAhead": 107.3663803534291,
+        "planning_of_turn": 0,
+        "isTrafficJam": false,
+        "isOverTaking": false,
+        "isLaneChanging": false,
+        "isTurningAround": false,
+        "PriorityNPCAhead": false,
+        "PriorityPedsAhead": false
+      },
+      "truth": {
+        "obsList": [],
+        "NearestNPC": null,
+        "minDistToEgo": 200,
+        "nearestGtObs": null,
+        "NPCAhead": null,
+        "PedAhead": null,
+        "NPCOpposite": null,
+        "npcClassification": {
+          "NextToEgo": [],
+          "OntheDifferentRoad": [],
+          "IntheJunction": [],
+          "EgoInjunction_Lane": [],
+          "EgoInjunction_junction": []
+        }
+      },
+      "traffic_lights": {
+        "containLights": false
+      }
+    }
+  ],
+  "completed": true
+}

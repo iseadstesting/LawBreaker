@@ -10,7 +10,7 @@ import re
 
 
 async def hello(scenario_msg) -> object:
-    uri = "ws://localhost:6666"
+    uri = "ws://localhost:8999"
     async with websockets.connect(uri) as websocket:
         scenario_no = len(scenario_msg)
         init_msg = json.dumps({'CMD': "CMD_READY_FOR_NEW_TEST"})
@@ -19,6 +19,7 @@ async def hello(scenario_msg) -> object:
         # print('iteration: {}'.format(i))
         msg = await websocket.recv()
         msg = json.loads(msg)
+        print(msg, scenario_no)
         # while True:
         #     msg = await websocket.recv()
         #     msg = json.loads(msg)
@@ -32,6 +33,7 @@ async def hello(scenario_msg) -> object:
                 while True:
                     msg_valid = await websocket.recv()
                     msg_valid = json.loads(msg_valid)
+                    print(msg_valid)
                     if msg_valid['TYPE'] == 'TEST_COMPLETED':
                         output_trace = msg_valid['DATA']
                         with open('result.json', 'w') as outfile:
@@ -69,7 +71,7 @@ def read_bug_testcase(file):
     counter = 0
     buffer = ""
     for line in flist:
-        if line.startswith("Time"):
+        if line.startswith("Time") or line.startswith("The"):
             counter = 0
             if buffer != "":
                 case_set.append(json.loads(buffer))
@@ -78,20 +80,23 @@ def read_bug_testcase(file):
         else:
             buffer += line
             counter += 1
+
+    # print(buffer[:4])
+    case_set.append(json.loads(buffer))
     return case_set
 
 
 
 if __name__ == "__main__":
-    # file_name = "round1/intersection2/bugTestCase.txt"
-    # test_cases = read_bug_testcase(file_name)
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(asyncio.gather(hello(test_cases)))
+    file_name = "./The_Results/Single-Direction-1/AccidentTestCase.txt"
+    test_cases = read_bug_testcase(file_name)
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(asyncio.gather(hello(test_cases)))
 
     # main1()
 
-    dir = '/home/xiaofei/Desktop/test/'
-    file = dir + 'TestCase2.json'
-    with open(file) as f:
-        test = json.load(f)
-    print(type(test))
+    # dir = './The_Results/Single-Direction-1/'
+    # file = dir + 'AccidentTestCase.json'
+    # with open(file) as f:
+    #     test = json.load(f)
+    # print(test)

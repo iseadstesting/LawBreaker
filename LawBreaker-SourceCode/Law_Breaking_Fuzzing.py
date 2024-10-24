@@ -604,15 +604,16 @@ def test_scenario(direct, item):
                 logging.info("\n Evaluate Scenario {} with Assertion {}: {} \n ".format(scenario_name, spec_index, single_specification.specification))
                 # spec_scenario(spec=single_specification, testcase=bug_cases, generations=25, pop_size=20,
                               # file_directory=log_direct)
-                spec_scenario(spec=single_specification, testcase=test_case, generations=20, pop_size=20, file_directory=log_direct)
+                spec_scenario(spec=single_specification, testcase=test_case, generations=10, pop_size=1, file_directory=log_direct)
                 # print(testcase)
         except KeyError:
             spec_scenario(spec={}, testcase=test_case)
 
 
 if __name__ == "__main__":
-    arr = ['Intersection_with_Single-Direction_Roads.txt', 'lane_change_in_the_same_road.txt', 'Intersection_with_Double-Direction_Roads.txt']
+    # arr = ['Intersection_with_Single-Direction_Roads.txt', 'lane_change_in_the_same_road.txt', 'Intersection_with_Double-Direction_Roads.txt']
     # arr = ['Intersection_with_Double-Direction_Roads.txt']
+    arr = ['Intersection_with_Single-Direction_Roads.txt']
     direct = 'test_cases/traffic_rule_tests/'
     # direct = 'test_cases/Violations/'
     # arr = ['Intersection_with_Double-Direction_Roads.txt', 'Single-Direction-1.txt']

@@ -35,8 +35,8 @@ class Server:
     def __init__(self):
         self.SIMULATOR_HOST = os.environ.get("SIMULATOR_HOST", "127.0.0.1")
         self.SIMULATOR_PORT = int(os.environ.get("SIMULATOR_PORT", 8977))
-        self.BRIDGE_HOST = os.environ.get("BRIDGE_HOST", "70.31.197.180")
-        self.BRIDGE_PORT = int(os.environ.get("BRIDGE_PORT", 41052))
+        self.BRIDGE_HOST = os.environ.get("BRIDGE_HOST", "141.195.16.189")
+        self.BRIDGE_PORT = int(os.environ.get("BRIDGE_PORT", 42814))
         self.sim = 0
         self.ego = 0
         self.destination_apollo = []
@@ -375,7 +375,7 @@ class Server:
 
 
             self.ego.on_collision(self.AVS_on_collision)
-            self.ego.connect_bridge(os.environ.get("BRIDGE_HOST", "70.31.197.180") ,port = 41052)
+            self.ego.connect_bridge(os.environ.get("BRIDGE_HOST", "141.195.16.189") ,port = 42814)
             # bounding_box = ego.bounding_box()
             # print(bounding_box.size)
             self.Add_npc_vehicles_to_Lgsvl(npcList)
@@ -393,7 +393,7 @@ class Server:
 
         map_of_lgsvl = data_to_process['map'] 
 
-        dv = lgsvl.dreamview.Connection(self.sim, self.ego, self.BRIDGE_HOST, "41352")
+        dv = lgsvl.dreamview.Connection(self.sim, self.ego, self.BRIDGE_HOST, "42443")
         # if map_of_lgsvl== 'borregas_ave':
         #     dv.set_hd_map('Borregas Ave')
         # elif map_of_lgsvl == 'san_francisco':

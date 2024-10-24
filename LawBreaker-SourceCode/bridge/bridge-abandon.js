@@ -8,7 +8,7 @@ const wsServer = new webSocketServer({ httpServer: server });
 
 
 const WebSocket = require('ws');
-const apollo = new WebSocket(`ws://localhost:8888/websocket`);
+const apollo = new WebSocket(`ws://141.195.16.189:42337/websocket`);
 apollo.binaryType = "arraybuffer";
 
 // Listen for messages

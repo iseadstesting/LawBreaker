@@ -23,7 +23,7 @@ import random
 
 
 def open_planning():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
 
     # websocket.enableTrace(True)
     apollo = create_connection(uri)

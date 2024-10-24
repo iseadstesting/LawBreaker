@@ -6,7 +6,7 @@ Communication Protocol: Websocket JSON string
 FrontEnd (Website)                                                                                  Backend (C++ server)                                                        
                                                                                    listening on localhost:8888/websocket
    
-const client = new WebSocket(`ws://localhost:8888/websocket`);
+const client = new WebSocket(`ws://141.195.16.189:42337/websocket`);
 client.binaryType = "arraybuffer";
 client.onopen = () => {...}
 client.onmessage = () => {...} 

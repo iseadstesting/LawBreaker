@@ -8,7 +8,7 @@ import math
 
 
 def turn_on_all_the_modules():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "SETUP_MODE" })
@@ -23,7 +23,7 @@ def turn_on_all_the_modules():
 
 
 def turn_off_all_the_modules():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "RESET_MODE" })
@@ -39,7 +39,7 @@ def turn_off_all_the_modules():
 
 
 def enter_auto_mode():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "ENTER_AUTO_MODE" })
@@ -54,7 +54,7 @@ def enter_auto_mode():
 
 
 def disengage():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "DISENGAGE" })
@@ -69,7 +69,7 @@ def disengage():
 
 
 def change_mode_of_apollo(mode: str):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "CHANGE_MODE", 'value': mode })
@@ -84,7 +84,7 @@ def change_mode_of_apollo(mode: str):
 
 
 def change_map_of_apollo(mapp: str):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "CHANGE_MAP", 'value': mapp })
@@ -100,7 +100,7 @@ def change_map_of_apollo(mapp: str):
 
 
 def change_vehicle_of_apollo(vehicle: str):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "CHANGE_VEHICLE", 'value': vehicle })
@@ -117,7 +117,7 @@ def change_vehicle_of_apollo(vehicle: str):
 
 
 def open_module_of_apollo(module: str):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': module })
@@ -134,7 +134,7 @@ def open_module_of_apollo(module: str):
 
 
 def stop_module_of_apollo(module: str):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "STOP_MODULE", 'value': module })
@@ -155,7 +155,7 @@ def stop_module_of_apollo(module: str):
 
 
 def get_HMIStatus():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIStatus' })
@@ -171,7 +171,7 @@ def get_HMIStatus():
 
 
 def get_RequestSimulationWorld():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': "RequestSimulationWorld", 'planning': True })
@@ -190,7 +190,7 @@ def get_RequestSimulationWorld():
 
 
 def send_routing_request(start_point:dict,end_point:dict,heading1,waypoint1 = []):
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'SendRoutingRequest', \
@@ -327,7 +327,7 @@ def send_routing_request(start_point:dict,end_point:dict,heading1,waypoint1 = []
 
 
 def open_planning_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Planning" })
@@ -343,7 +343,7 @@ def open_planning_of_apollo():
 
 
 def open_camera_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Camera" })
@@ -357,7 +357,7 @@ def open_camera_of_apollo():
     apollo.close()
 
 def open_traffic_light_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Traffic Light" })
@@ -371,7 +371,7 @@ def open_traffic_light_of_apollo():
     apollo.close()
 
 def open_canbus_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Canbus" })
@@ -385,7 +385,7 @@ def open_canbus_of_apollo():
     apollo.close()
 
 def open_prediction_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Prediction" })
@@ -399,7 +399,7 @@ def open_prediction_of_apollo():
     apollo.close()
 
 def open_transform_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Transform" })
@@ -413,7 +413,7 @@ def open_transform_of_apollo():
     apollo.close()
 
 def open_routing_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Routing" })
@@ -427,7 +427,7 @@ def open_routing_of_apollo():
     apollo.close()
 
 def open_control_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Control" })
@@ -441,7 +441,7 @@ def open_control_of_apollo():
     apollo.close()
 
 def open_perception_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Perception" })
@@ -455,7 +455,7 @@ def open_perception_of_apollo():
     apollo.close()
 
 def open_third_party_perception_of_apollo():
-    uri = "ws://localhost:8888/websocket"
+    uri = "ws://141.195.16.189:42337/websocket"
     # websocket.enableTrace(True)
     apollo = create_connection(uri)
     init_msg = json.dumps({ 'type': 'HMIAction', 'action': "START_MODULE", 'value': "Third Party Perception" })
